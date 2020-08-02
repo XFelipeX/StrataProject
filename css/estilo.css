@@ -9,7 +9,7 @@ a {
     transition: color .2s linear, border .2s linear;
     text-decoration: none;
     border-bottom: 1px dotted;
-    color: #49bf9d;
+    color: #ccc;
 }
 
 a:hover {
@@ -89,10 +89,6 @@ ol {
     padding-left: 1.1em;
 }
 
-li {
-    padding-left: 5em;
-}
-
 img{
     max-width: 100%;
 }
@@ -121,6 +117,8 @@ img{
     font-size: 2em;
     color: #49bf9d;
 }
+
+
 
 input, label, textarea, select{
     display: inline-block;
@@ -193,8 +191,6 @@ input:focus, textarea:focus{
     background-color: white;
 }
 
-
-.bu
 
 .imagem-link{
     border: none;
@@ -307,8 +303,29 @@ input:focus, textarea:focus{
     display: inline-block;
     border-radius: 5px;
 }
-.gallery-thumb{
+
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
 }
+
+.main-footer ul li{
+    display: inline-block;
+}
+
+.main-footer a{
+    border: none;
+}
+
+.main-footer a:hover{
+    color: #49bf9d;
+}
+
 /* Grid */
 .row {
 
